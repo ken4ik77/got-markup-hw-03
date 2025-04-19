@@ -4,7 +4,9 @@ body {
     background-color: #FFFFFF
     display; flex;
 }
-
+img {
+    display: block;
+}
 .conteiner {
     width: 1440px;
     height: 72px;
@@ -15,13 +17,23 @@ body {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     margin-left: 156px;
+    margin-bottom: 24px;
 
 }
 /* heder and navigation */
 .navigation {
     display: flex;
     gap: 40px;
-    margin-bottom: 24px;
+    align-items: center;
+}
+.nav {
+    align-items: center;
+    margin-right: 76px;
+}
+.header-menu {
+    align-items: center;
+    display: flex;
+    gap: 40px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -32,10 +44,12 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
 }
 .navigation-list {
     display: flex;
     margin-right: 40px;
+    padding: 24px 0;
 }
 .address {
     display: flex;
@@ -92,7 +106,7 @@ body {
     color: #404bbf;
 }
 /* main section */
-.main-section {
+.main-section  {
     background-color: #2E2F42;
     padding: 188px 0;
 }
@@ -148,7 +162,7 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: none;
-    visibility:hidden;
+    visibility:hidden;x: 11;
 } 
 .advant-list {
     display: flex;
@@ -199,6 +213,7 @@ body {
 }
 .div-ourteam-test {
 display: flex;
+width: calc((100% - 72px) / 4);
 
 }
 .ourteam-list {
@@ -208,12 +223,9 @@ display: flex;
     letter-spacing: 0.02em;
     display: flex;
     gap: 24px;
-    max-width: 1440px;
-    width: calc((100% - 72px) / 4);
 }
 .ourteam-list-test {
     background-color: #FFFFFF;
-    width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 .div-ourteam {
@@ -252,17 +264,25 @@ display: flex;
     color: #2e2f42;
     margin-bottom: 72px;
 }
-.div-list-folio {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .list-folio {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+.div-list-folio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
+
 }
 .portfolio-head-h {
     font-weight: 500;
@@ -285,7 +305,7 @@ padding: 100px 0;
 
 }
 
-.footer .logo {
+.logo-footer {
     color: #4d5ae5;
     text-decoration: none;
     font-weight: 700;
