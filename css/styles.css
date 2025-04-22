@@ -66,8 +66,7 @@ display: flex;
 }
 .address {
     display: flex;
-        gap: 40px;
-    
+    gap: 40px;
 }
 .adress-list {
     display: flex;
@@ -169,6 +168,7 @@ display: flex;
     color: #2e2f42;
     display: flex;
     gap: 24px;
+    padding: 120px 0;
 }
 .advant-h {
     font-weight: 500;
@@ -326,7 +326,6 @@ display: flex;
 .footer {
 background-color: #2e2f42;
 padding: 100px 0;
-
 }
 
 .logo-footer {
