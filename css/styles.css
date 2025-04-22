@@ -7,28 +7,27 @@ body {
 img {
     display: block;
 }
-.conteiner {
-    width: 1440px;
-    height: 72px;
-    display: flex;
-    margin-bottom: 24px;
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
-.header-container{
+
+.header-container {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     margin-left: 156px;
     margin-bottom: 24px;
-
 }
+
 /* heder and navigation */
-.navigation {
+.navigation >{
     display: flex;
     gap: 40px;
     align-items: center;
 }
-.nav {
-    align-items: center;
-    margin-right: 76px;
+.nav > a {
+display: flex;
 }
 .header-menu {
     align-items: center;
@@ -164,6 +163,18 @@ img {
     display: none;
     visibility:hidden;x: 11;
 } 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .advant-list {
     display: flex;
     gap: 24px;
