@@ -39,7 +39,7 @@ ul, ol {
 /* heder and navigation */
 .navigation {
     display: flex;
-    gap: 40px;
+    margin-right: auto;
     align-items: center;
 }
 .nav {
@@ -121,7 +121,6 @@ display: flex;
 .main-section  {
     background-color: #2E2F42;
     padding: 188px 0;
-    margin: 0 auto 48px;
 }
 .main-section-h{
     font-weight: 700;
@@ -132,6 +131,7 @@ display: flex;
     color: #FFFFFF;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 .button {
     font-family: "Roboto", sans-serif;
@@ -225,7 +225,6 @@ display: flex;
     padding: 120px 0;
 }
 .team-info{
-    width: calc((100% - 72px) / 4);
     padding: 32px 0;
 
 }
@@ -304,7 +303,6 @@ display: flex;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 
 }
 .portfolio-head-h {
